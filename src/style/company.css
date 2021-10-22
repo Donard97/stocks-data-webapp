@@ -60,7 +60,7 @@ body {
 }
 
 .parent-banner-div {
-  background: #4682b4;
+  background: #99badd;
 }
 
 .banner-div {
@@ -84,14 +84,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  color: white;
+  color: black;
 }
 
 .banner-description-para {
   width: 95%;
   text-align: left;
   font-size: 15px;
-  color: white;
+  color: black;
 }
 
 .banner-description-para > p {
