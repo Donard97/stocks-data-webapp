@@ -2,6 +2,7 @@
   "name": "stocks-data-webapp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://donard97.github.io/stocks-data-webapp",
   "dependencies": {
     "@reduxjs/toolkit": "^1.6.2",
     "@testing-library/jest-dom": "^5.14.1",
@@ -24,6 +25,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
