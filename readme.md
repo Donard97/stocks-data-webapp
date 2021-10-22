@@ -99,6 +99,10 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 - Twitter: [@donardgolaj](https://twitter.com/donardgolaj)
 - LinkdIn : [@donard-golaj](https://www.linkedin.com/in/donard-golaj/)
 
+## Acknowledgments
+
+[Nelson Sakwa](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) whose design template was used for this project.
+
 ## 👊🏾 Show your support
 
 Give a ⭐️ if you like this project!
