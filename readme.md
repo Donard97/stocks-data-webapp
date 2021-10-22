@@ -2,7 +2,10 @@
 
 # Stock Data APP
 
-> A metric web application .
+> A mobile web application that collects information from an API to provide comprehensive data for stocks.
+
+![image](https://user-images.githubusercontent.com/74506933/138464915-0e2049c8-7d39-4eed-b6fc-79feac030d5f.png)
+![image](https://user-images.githubusercontent.com/74506933/138464990-8215e294-9587-4097-b31c-ac051940ddf0.png)
 
 
 **Additional description about the project and its features.**
@@ -22,7 +25,7 @@
 
 ## 📡 Live Demo
 
-
+[Live Demo](https://donard97.github.io/stocks-data-webapp/)
 
 ## 🧰 Tools
 
