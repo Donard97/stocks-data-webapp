@@ -28,7 +28,7 @@
 [Live Demo](https://donard97.github.io/stocks-data-webapp/)
 
 ## 📹 Video Presentation
-[Video Presenation](https://loom.com/share/408feb21fa1a482d93e3dc03fcfc1a2b)
+[Video Presentation](https://loom.com/share/408feb21fa1a482d93e3dc03fcfc1a2b)
 
 ## 🧰 Tools
 
