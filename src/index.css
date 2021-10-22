@@ -61,7 +61,7 @@ body {
   background-color: rgba(38, 67, 159, 1);
   color: white;
   text-align: center;
-  margin-top: -4px;
+  margin-top: -20px;
 }
 
 .list-heading {
@@ -112,4 +112,22 @@ body {
   width: 80%;
   margin-inline: auto;
   color: white;
+}
+
+.search-container {
+  padding: 10px;
+}
+
+.search-container input {
+  padding: 5px;
+  width: 30%;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+.search-container p {
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 1.1rem;
 }

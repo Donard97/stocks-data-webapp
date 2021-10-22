@@ -7,8 +7,12 @@ const Home = ({ nasdaq }) => {
   companies.sort((a, b) => b.changesPercentage - a.changesPercentage);
 
   return (
-    <>
+    <div>
       <div className="full-width">
+        <div className="search-container">
+          <p>Search By Name</p>
+          <input id="country-search" className="search-field" placeholder="Search" type="text" />
+        </div>
         <h5 className="list-heading">Top Performers</h5>
       </div>
       <div className="container">
@@ -23,7 +27,7 @@ const Home = ({ nasdaq }) => {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
