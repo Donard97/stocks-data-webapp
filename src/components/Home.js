@@ -13,9 +13,13 @@ const Home = ({ nasdaq }) => {
       </div>
       <div className="container">
         {companies.map((item, index) => (
-          // eslint-disable-next-line max-len
           <div key={item.ticker} className="container-child">
-            <Each name={item.ticker} price={item.price} index={index} company={item.companyName} />
+            <Each
+              name={item.ticker}
+              price={item.price}
+              index={index}
+              company={item.companyName}
+            />
           </div>
         ))}
       </div>
