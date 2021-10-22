@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { listAPIcall } from '../redux/home/home';
 import Top from '../components/Top';
 import Home from '../components/Home';
+import cover from '../assets/cover.png';
 
 const Main = () => {
   const dispatch = useDispatch();
@@ -13,6 +14,7 @@ const Main = () => {
   return (
     <>
       <Top />
+      <img className="cover-img" src={cover} alt="Grow" />
       <div>
         <Home nasdaq={result} />
       </div>
