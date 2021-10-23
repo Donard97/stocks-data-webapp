@@ -28,9 +28,7 @@ const Home = ({ nasdaq }) => {
       return filteredData;
     });
   }
-  console.log('filteredData', filteredData);
 
-  console.log(searchValue);
   return (
     <div>
       <div className="full-width">
