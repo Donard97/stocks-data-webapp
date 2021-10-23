@@ -6,10 +6,11 @@ const Home = ({ nasdaq }) => {
   const companies = nasdaq;
   const [fetchedData, setFetchedData] = useState(companies);
   const [searchValue, setSearchValue] = useState('');
-  fetchedData.sort((a, b) => b.changesPercentage - a.changesPercentage);
+  if (fetchedData.lenght > 0) {
+    fetchedData.sort((a, b) => b.changesPercentage - a.changesPercentage);
+  }
 
   const handleSearch = (e) => {
-    // console.log(e.target.value);
     setSearchValue(e.target.value);
   };
 
@@ -19,10 +20,9 @@ const Home = ({ nasdaq }) => {
 
   const filteredData = [];
 
-  // console.log('fetchedData', fetchedData);
   if (fetchedData.length > 0 && searchValue) {
     fetchedData.filter((each) => {
-      if (each.companyName.includes(searchValue)) {
+      if (each.companyName.toLowerCase().includes(searchValue)) {
         filteredData.push(each);
       }
       return filteredData;
@@ -66,17 +66,6 @@ const Home = ({ nasdaq }) => {
     </div>
   );
 };
-
-// {fetchedData.map((item, index) => (
-//   <div key={item.ticker} className="container-child">
-//     <Each
-//       name={item.ticker}
-//       price={item.price}
-//       index={index}
-//       company={item.companyName}
-//     />
-//   </div>
-// ))}
 
 Home.propTypes = {
   nasdaq: PropTypes.instanceOf(Object).isRequired,
